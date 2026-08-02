@@ -1,0 +1,15 @@
+[project]
+name = "rp-ir-backend"
+version = "0.1.0"
+description = "FastAPI backend application for running the application"
+readme = "README.md"
+authors = [{ name = "AndreasStgm", email = "andreassteegmans@hotmail.com" }]
+requires-python = ">=3.14"
+dependencies = ["fastapi==0.141.1"]
+
+[project.scripts]
+rp-ir-backend = "rp_ir_backend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
